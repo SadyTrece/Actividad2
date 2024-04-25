@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background: #323845;
+}
+
+nav{
+    background: #676767;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.login{
+    background: #3660af;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.coches{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.coches .coche{
+    margin: 10px;
+    background: #696969;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.bienvenida{
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+.bienvenida span{
+    font-size: 51px;
+}
+
+.parrafo{
+    text-align: center;
+}
